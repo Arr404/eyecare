@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.total.eyecare.ui.dashboard.HomeFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="com.total.eyecare.ui.camera.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_workers"
+        android:name="com.total.eyecare.ui.workers.SlideshowFragment"
+        android:label="@string/menu_workers"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <activity
+        android:id="@+id/nav_lampu"
+        android:name="com.total.eyecare.ui.lampu.lampuActivity"
+        android:label="@string/menu_lampu"
+        tools:layout="@layout/activity_lampu" />
+
+    <activity
+        android:id="@+id/nav_lokasi"
+        android:name="com.total.eyecare.ui.lokasi.lokasiActivity"
+        android:label="@string/menu_lokasi"
+        tools:layout="@layout/activity_lokasi" />
+
+    <activity
+        android:id="@+id/nav_profile"
+        android:name="com.total.eyecare.ui.profile.ProfileActivity"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/activity_profile" />
+    <activity
+        android:id="@+id/nav_logout"
+        android:name="com.total.eyecare.ui.logout.LogOutActivity"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/activity_log_out" />
+</navigation>

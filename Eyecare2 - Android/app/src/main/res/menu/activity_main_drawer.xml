@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_baseline_camera_24"
+            android:title="@string/menu_camera" />
+        <item
+            android:id="@+id/nav_workers"
+            android:icon="@drawable/ic_baseline_supervisor_account_24"
+            android:title="@string/menu_workers" />
+    </group>
+    <item android:title="@string/menu_iot">
+        <menu>
+            <item
+                android:id="@+id/nav_lampu"
+                android:icon="@drawable/ic_baseline_lampu"
+                android:title="@string/menu_lampu" />
+            <item
+                android:id="@+id/nav_lokasi"
+                android:icon="@drawable/ic_baseline_my_location_24"
+                android:title="@string/menu_lokasi" />
+
+        </menu>
+    </item>
+    <item android:title="@string/menu_profile">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_baseline_profile"
+                android:title="@string/menu_profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_subdirectory_arrow_left_24"
+                android:title="@string/menu_logout" />
+
+        </menu>
+    </item>
+</menu>

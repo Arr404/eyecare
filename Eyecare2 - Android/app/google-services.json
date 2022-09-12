@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "394054696644",
+    "firebase_url": "https://tbp-eyecare-v3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tbp-eyecare-v3",
+    "storage_bucket": "tbp-eyecare-v3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394054696644:android:5645ae20dff3fdb5019391",
+        "android_client_info": {
+          "package_name": "com.total.eyecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394054696644-ovjhk3r2okkqpn76h8rnghrlt6jsmfuu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.total.eyecare",
+            "certificate_hash": "eba19e1eb54346115d362a412a82ec0b41fd6821"
+          }
+        },
+        {
+          "client_id": "394054696644-1lbl0hn4b07fhi3iid09e75ivp6lhte6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDybbZ3rer_lWRSBWitDGtShj04T7_hnmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394054696644-1lbl0hn4b07fhi3iid09e75ivp6lhte6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
